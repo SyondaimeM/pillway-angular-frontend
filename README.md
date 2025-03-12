@@ -1,59 +1,64 @@
-# PillwayAngularFrontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+# Pillway - Angular Frontend
 
-## Development server
+## Overview
 
-To start a local development server, run:
+This repository contains the Angular frontend for the Pillway project, a dynamic dashboard application with user authentication, a data table integrated with an API, and several interactive features like search/filtering, pagination, sorting, and a dark mode toggle.
 
-```bash
-ng serve
-```
+### Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **User Authentication**: Implements JWT-based authentication for secure user login.
+- **Dynamic Data Table**: Displays data fetched from an API (`https://jsonplaceholder.typicode.com/posts`) in a table with features like pagination, sorting, and filtering.
+- **State Management**: Uses Angular Signals to manage state reactively.
+- **Performance Optimizations**: Lazy loading and other performance enhancements for better scalability.
+- **Dark Mode Toggle**: Allows users to toggle between light and dark themes.
 
-## Code scaffolding
+### Project Setup
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SyondaimeM/pillway-angular-frontend.git
+   cd pillway-angular-frontend
+   ```
 
-```bash
-ng generate component component-name
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+3. Serve the application:
+   ```bash
+   ng serve
+   ```
 
-```bash
-ng generate --help
-```
+   The frontend should now be available at `http://localhost:4200`.
 
-## Building
+### Dependencies
 
-To build the project run:
+- **Angular Material**: For UI components like tables, inputs, paginator, etc.
+- **NgRx or Angular Signals**: For state management.
 
-```bash
-ng build
-```
+### File Structure
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- **app/post/post.component.ts**: Manages the logic for the post table, including pagination, filtering, sorting, and dark mode.
+- **app/app.module.ts**: Contains the main module for the Angular app.
+- **assets/styles.css**: Global styles for the frontend, including dark mode styling.
 
-## Running unit tests
+### Testing
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Unit tests have been added to ensure the frontend features, including table sorting and pagination, work as expected.
 
+To run the tests:
 ```bash
 ng test
 ```
+### 🛠️ Project Setup
 
-## Running end-to-end tests
+To get the application running locally, follow these steps:
 
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SyondaimeM/pillway-angular-frontend.git
+   cd pillway-angular-frontend
+   
+![Dashboard Screenshot]
