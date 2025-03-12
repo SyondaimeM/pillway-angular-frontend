@@ -1,0 +1,73 @@
+/* Light Theme (default) */
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.example-header {
+  min-height: 64px;
+}
+
+.mat-form-field {
+  font-size: 14px;
+}
+
+.mat-table {
+  overflow: auto;
+}
+
+.theme-toggle {
+  margin-left: auto;
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+  background-color: #303030;
+  color: #fff;
+}
+
+.dark-theme .example-header {
+  background-color: #424242;
+}
+
+.dark-theme .mat-table {
+  background-color: #424242;
+}
+
+.dark-theme .mat-header-cell,
+.dark-theme .mat-cell {
+  color: #fff !important;
+}
+
+/* Specific Dark Theme Table Style Changes */
+.dark-theme .mat-header-row {
+  background-color: #333333;
+}
+
+.dark-theme .mat-row {
+  background-color: #424242;
+}
+
+.dark-theme .mat-sort-header-sorted {
+  color: #ffd700; /* Optional: Highlight sorted columns in gold */
+}
+
+.dark-theme .mat-paginator {
+  background-color: #424242;
+  color: #fff;
+}
+
+.dark-theme .mat-form-field {
+  color: #fff;
+}
+
+.dark-theme .mat-slide-toggle {
+  color: #fff;
+}
