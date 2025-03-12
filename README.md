@@ -63,6 +63,6 @@ To get the application running locally, follow these steps:
    
 ![Dashboard Screenshot]
 
-(public/screenshot1.png)
-(public/screenshot2.png)
-(public/screenshot3.png)
+![screenshot](public/screenshot1.png)
+![screenshot](public/screenshot2.png)
+![screenshot](public/screenshot3.png)
