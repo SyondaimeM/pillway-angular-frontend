@@ -33,8 +33,6 @@ export class LoginComponent {
     this.http.post("http://127.0.0.1:8000/api/login", this.logiObj).subscribe(
       (res: any) => {
         if (res.token) {
-          alert("Login Success");
-
           const enrUserName = this.encriptData(this.logiObj.email);
           localStorage.setItem("uName", enrUserName);
           localStorage.setItem('angular18Token', res.token);
