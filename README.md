@@ -5,6 +5,12 @@
 
 This repository contains the Angular frontend for the Pillway project, a dynamic dashboard application with user authentication, a data table integrated with an API, and several interactive features like search/filtering, pagination, sorting, and a dark mode toggle.
 
+This project consists of a frontend and backend for the Pillway application. The frontend is built using Angular, and the backend is powered by Laravel.
+
+- **Frontend Repository:** [Pillway Angular Frontend](https://github.com/SyondaimeM/pillway-angular-frontend)
+- **Backend Repository:** [Pillway Laravel Backend](https://github.com/SyondaimeM/pillway-laravel-backend)
+
+
 ### Features
 
 - **User Authentication**: Implements JWT-based authentication for secure user login.
@@ -12,6 +18,11 @@ This repository contains the Angular frontend for the Pillway project, a dynamic
 - **State Management**: Uses Angular Signals to manage state reactively.
 - **Performance Optimizations**: Lazy loading and other performance enhancements for better scalability.
 - **Dark Mode Toggle**: Allows users to toggle between light and dark themes.
+
+### Watch Demo 
+---
+[![Demo Video](http://i3.ytimg.com/vi/vxoF22bEDD8/maxresdefault.jpg)](https://youtu.be/vxoF22bEDD8)
+---
 
 ### Project Setup
 
